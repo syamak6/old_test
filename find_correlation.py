@@ -41,7 +41,7 @@ pearson_binding
 #Plot the correlation
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+print("hi")
 sns.scatterplot(x='Hydrophobicity', y='DisorderTendency', data=df)
 plt.title("Hydrophobicity vs Disorder Tendency")
 plt.show()
